@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ 
+
+body {
+background-image: linear-gradient(to right, #eb3349  , #f45c43);
+}
+#title{
+color: #fff;
+font-size: 65px;
+}
+ 

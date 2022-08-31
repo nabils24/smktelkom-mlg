@@ -15,18 +15,24 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#aboutme">About me</a></li>
         <li><a href="#project">project</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#testi">Testimoni</a></li>
+        <li><a href="#kontak">Kontak</a></li>
       </ul>
     </nav>
+    <div class="space"></div>
     <div id="home">
-      <h1 class="ml2 title">Hi, Im Nabil Sahsada Suratno</h1>
+      <h1 class="ml2 title">Hi, Im Nabil Sahsada S</h1>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <table>
         <tr>
           <th><button type="button" class="button1">Check My CV</button></th>
           <th>
-            <button type="button" class="button2">Lihat Projek Saya?</button>
+            <button type="button" class="button2">
+              <a href="#project" style="text-decoration: none; color: white"
+                >Lihat Projek Saya?</a
+              >
+            </button>
           </th>
         </tr>
       </table>
@@ -37,42 +43,61 @@
       />
     </div>
     <div id="aboutme">
-      <h1 class="aboutme-title">Tentang saya</h1>
-      <ul class="list-aboutme">
-        <li>👋 Hi!</li>
-        <li>❤️ I love Learning.</li>
-        <li>📱 I'm a Mobile Developer.</li>
-        <li>🎓 I'm a Web Developer.</li>
-        <li>💡 I'm a Programmer.</li>
-        <li>🎓 I'm a Student in SMK TELKOM MALANG Grade XI</li>
-      </ul>
+      <div class="box">
+        <div class="">
+          <img
+            src="https://avatars.githubusercontent.com/u/107533428?v=4"
+            alt=""
+            class="box-gambar"
+          />
+          <div class="aboutme-desc">
+            <h3>
+              <ul>
+                <li>👋 Hi!</li>
+                <li>❤️ I love Learning.</li>
+                <li>
+                  🌱 I’m currently learning Web Development, Java, Js, Node.js,
+                  Laravel, Vue, C#
+                </li>
+                <li>💼 I'm a Student at SMK Telkom Malang In Grade XI.</li>
+                <li>📞 I'm born in Makasssar 24 Februari 2006</li>
+              </ul>
+            </h3>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="project" id="project">
       <div class="main-container">
         <div class="heading" style="margin-top: 50px; margin-bottom: 50px">
-          <h1 class="heading__title">Project Yang Saya buat</h1>
+          <h1 class="heading__title">My Project</h1>
           <p class="heading__credits">
             <a
               class="heading__link"
               target="_blank"
               href="https://dribbble.com/sl"
-              >sebagian hanya UI/UX</a
-            >
+            ></a>
           </p>
         </div>
         <div class="cards">
           <div class="card card-1">
-            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <img class="img1" src="./Asset/gambar1.jpeg" alt="" />
             <p class="card__exit"><i class="fas fa-times"></i></p>
-            <h2 class="card__title">Game Sederhana unity</h2>
+            <h2 class="card__title">Simple Game Unity</h2>
             <p class="card__apply">
-              <a class="card__link" href="https://youtu.be/Y9vg6gwioX4"
-                >Lihat<i class="fas fa-arrow-right"></i
+              <a
+                class="card__link"
+                href="https://www.youtube.com/watch?v=Y9vg6gwioX4&ab_channel=NabilSahsadaSuratno"
+                >Lihat <i class="fas fa-arrow-right"></i
               ></a>
             </p>
           </div>
           <div class="card card-2">
-            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <img
+              class="img1"
+              src="https://vuejsexamples.com/content/images/2021/11/Blog-with-firebase-CRUD-NuxtJs.jpg"
+              alt=""
+            />
             <p class="card__exit"><i class="fas fa-times"></i></p>
             <h2 class="card__title">Simple CRUD menggunakan vuejs</h2>
             <p class="card__apply">
@@ -82,13 +107,15 @@
             </p>
           </div>
           <div class="card card-3">
-            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <img
+              class="img1"
+              src="https://res.cloudinary.com/dxrgnigvy/image/upload/v1656831392/WhatsApp_Image_2022-07-03_at_13.56.16_yagx1y.jpg"
+              alt=""
+            />
             <p class="card__exit"><i class="fas fa-times"></i></p>
-            <h2 class="card__title">Simple Portofolio menggunakan nuxt js</h2>
+            <h2 class="card__title">Game suit from nuxtjs</h2>
             <p class="card__apply">
-              <a
-                class="card__link"
-                href="https://nabils24-portofolio.vercel.app"
+              <a class="card__link" href="https://suitku.vercel.app"
                 >Lihat<i class="fas fa-arrow-right"></i
               ></a>
             </p>
@@ -96,45 +123,53 @@
         </div>
       </div>
     </div>
-    <div class="testi">
-      <div class="heading" style="margin-top: 50px; margin-bottom: 50px">
-        <h1 class="heading__title">Testimonial</h1>
-        <p class="heading__credits">
-          <a
-            class="heading__link"
-            target="_blank"
-            href="https://dribbble.com/sl"
-            >hanya demo testi dari teman-teman kelas saya</a
-          >
-        </p>
+    <div class="testi" id="testi">
+      <div class="main-container">
+        <div class="heading" style="margin-top: 50px; margin-bottom: 50px">
+          <h1 class="heading__title">Testimonial</h1>
+          <p class="heading__credits">
+            <a
+              class="heading__link"
+              target="_blank"
+              href="https://dribbble.com/sl"
+            ></a>
+          </p>
+        </div>
+        <div class="cards">
+          <div class="card card-2">
+            <div class="icon">🤖</div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">"Keren Bgtt"</h2>
+            <p class="card__apply">
+              <a class="card__link" href="#"
+                >Ihsan rahmat <i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+          <div class="card card-5">
+            <div class="icon">😎</div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">"Anjass kelasss"</h2>
+            <p class="card__apply">
+              <a class="card__link" href="#"
+                >Galih Meyto <i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+          <div class="card card-4">
+            <div class="icon">🤡</div>
+            <p class="card__exit"><i class="fas fa-times"></i></p>
+            <h2 class="card__title">"hahahahahah"</h2>
+            <p class="card__apply">
+              <a
+                class="card__link"
+                href="https://nabils24-portofolio.vercel.app"
+                >Nabil Sahsada S<i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+        </div>
       </div>
-      <figure class="snip1533">
-        <figcaption>
-          <blockquote>
-            <p>Keren bgttt bro</p>
-          </blockquote>
-          <h3>Galih Meytoo XIR7</h3>
-          <h4>SMK TELKOM MALANG</h4>
-        </figcaption>
-      </figure>
-      <figure class="snip1533">
-        <figcaption>
-          <blockquote>
-            <p>wowwww mantab</p>
-          </blockquote>
-          <h3>Ihsan rahmad XIR7</h3>
-          <h4>SMK TELKOM MALANG</h4>
-        </figcaption>
-      </figure>
-      <figure class="snip1533">
-        <figcaption>
-          <blockquote>
-            <p>Affah iyah dek</p>
-          </blockquote>
-          <h3>Nayaco XIR7</h3>
-          <h4>SMK TELKOM MALANG</h4>
-        </figcaption>
-      </figure>
     </div>
     <div class="map">
       <div class="heading" style="margin-top: 50px; margin-bottom: 50px">
@@ -144,8 +179,7 @@
             class="heading__link"
             target="_blank"
             href="https://dribbble.com/sl"
-            >Alamat rumah saya</a
-          >
+          ></a>
         </p>
       </div>
       <iframe
@@ -159,7 +193,7 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
-    <div class="kontak">
+    <div class="kontak" id="kontak">
       <div class="heading" style="margin-top: 50px; margin-bottom: 50px">
         <h1 class="heading__title">Kirim Pesan</h1>
         <p class="heading__credits">
@@ -176,7 +210,7 @@
           name="name"
           type="text"
           class="feedback-input"
-          placeholder="Name"
+          placeholder="Nama"
         />
         <input
           name="email"
@@ -187,11 +221,14 @@
         <textarea
           name="text"
           class="feedback-input"
-          placeholder="Comment"
+          placeholder="Pesan"
         ></textarea>
-        <input type="submit" value="SUBMIT" />
+        <input type="submit" value="Kirim" />
       </form>
     </div>
+    <footer class="footer-content">
+      <div><h3>Nabils24 | 2022</h3></div>
+    </footer>
     <script src="./test.js"></script>
   </body>
 </html>
